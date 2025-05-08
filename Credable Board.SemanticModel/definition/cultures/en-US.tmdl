@@ -1,0 +1,5845 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "3.5.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "disbursement": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Disbursements"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "disbursement": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "payment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "payout": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "expenditure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "distribution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "expense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "disbursement.customer_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Disbursements",
+			          "ConceptualProperty": "customer_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "customer id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "customer_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "customer identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "client id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "consumer id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "user id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "buyer id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "patron id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "purchaser id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "disbursement.disb_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Disbursements",
+			          "ConceptualProperty": "disb_date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "disb date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "disb_date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "disb moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "disb period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "disbursement.tenure": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Disbursements",
+			          "ConceptualProperty": "tenure"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tenure": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "tenancy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "occupancy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "occupation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "freehold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "lease": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contract": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "duration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "term": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "span": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "disbursement.account_num": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Disbursements",
+			          "ConceptualProperty": "account_num"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "account num": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "account_num": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "account number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "disbursement.loan_amount": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Disbursements",
+			          "ConceptualProperty": "loan_amount"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "loan amount": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "loan_amount": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "loan quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "loan volume": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "loan expanse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "loan extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "loan sum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "loan total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "loan aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "disbursement.loan_fee": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Disbursements",
+			          "ConceptualProperty": "loan_fee"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "loan fee": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "loan_fee": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "fee": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "loan payment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "loan remuneration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "loan emolument": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "loan salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "loan stipend": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "payment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "remuneration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "emolument": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "stipend": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "customer": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Customer"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "customer": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "buyer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "purchaser": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "shopper": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "customer.customer_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Customer",
+			          "ConceptualProperty": "customer_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "customer id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "customer_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "customer identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "client id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "consumer id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "user id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "buyer id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "patron id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "purchaser id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "customer.account_num": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Customer",
+			          "ConceptualProperty": "account_num"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "account num": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "account_num": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "account number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "measure_table": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MeasureTable"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "measure table": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MeasureTable": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "measure tabletop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "measure bench": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "measure board": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "measure counter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "measure stand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "measure slab": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "measure desk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "measure stall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "measure table top": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "measure spreadsheet": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "measure_table.column": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MeasureTable",
+			          "ConceptualProperty": "Column"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "column": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "pilaster": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pillar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "post": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "support": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pole": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "buttress": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "underpinning": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contribution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "measure_table.customer_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MeasureTable",
+			          "ConceptualProperty": "Customer Count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "customer count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "customer amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "client count": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "consumer count": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "user count": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "buyer count": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "patron count": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "purchaser count": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "shopper count": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "measure_table.total_disbursment": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MeasureTable",
+			          "ConceptualProperty": "Total Disbursment"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total disbursment": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate disbursment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall disbursment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "measure_table.total_payment_collected": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MeasureTable",
+			          "ConceptualProperty": "Total Payment Collected"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total payment collected": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "aggregate payment collected": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall payment collected": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "total imbursement collected": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "total compensation collected": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "total disbursement collected": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "total sum collected": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total expense collected": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total recompense collected": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total fee collected": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "Repayment Collected": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "measure_table.loans_profit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MeasureTable",
+			          "ConceptualProperty": "Loans Profit"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "loans profit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "profit": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "loan income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "loan revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "loan turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "loan return": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "loan yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "return": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "measure_table.active_loans": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MeasureTable",
+			          "ConceptualProperty": "Active Loans"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "active loans": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "loans": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "active advance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "active credit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "active finance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "active mortgage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "advance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "credit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "finance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mortgage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "measure_table.avg__loan_size": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MeasureTable",
+			          "ConceptualProperty": "Avg. Loan Size"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "avg. loan size": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "average . loan size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "avg. loan extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "avg. loan magnitude": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "avg. loan scope": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "avg. loan volume": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "avg. loan dimension": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "avg. loan mass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "avg. loan bulk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "avg. loan amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "avg. loan range": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        }
+			      ]
+			    },
+			    "measure_table.repayment_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MeasureTable",
+			          "ConceptualProperty": "Repayment Rate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "repayment rate": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rate": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "repayment degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "repayment frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "repayment percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "repayment ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "repayment quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "repayment amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "calender": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "calender": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "calender.date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calender.month_num": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "MonthNum"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month num": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MonthNum": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "month number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "mth num": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "calender.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "calender.month_long": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "MonthLong"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month long": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MonthLong": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "mth long": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "calender.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ]
+			    },
+			    "calender.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calender.fiscal_month_num": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "FiscalMonthNum"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fiscal month num": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FiscalMonthNum": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "fiscal month number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "fisc month num": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "fiscal mth num": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        }
+			      ]
+			    },
+			    "calender.fiscal_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "FiscalMonth"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fiscal month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FiscalMonth": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "fiscal mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "fisc month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "calender.fiscal_month_long": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "FiscalMonthLong"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fiscal month long": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FiscalMonthLong": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "fisc month long": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "fiscal mth long": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        }
+			      ]
+			    },
+			    "calender.fiscal_quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "FiscalQuarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fiscal quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FiscalQuarter": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "fiscal qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "fisc quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "fiscal qrt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "fiscal qrtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "calender.fiscal_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "FiscalYear"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fiscal year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FiscalYear": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "fiscal yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "fisc year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "accounting year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "budget year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "fiscal date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "fiscal day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "tax year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "calender.cur_month_offset": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "CurMonthOffset"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cur month offset": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CurMonthOffset": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "offset": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "month offset": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cur mth offset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "mth offset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "cur month equalizer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "cur month compensation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "month equalizer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "month compensation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "cur month counterbalance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "cur month balance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "cur month counterpoise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "cur month equipoise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "calender.cur_quarter_offset": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "CurQuarterOffset"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cur quarter offset": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CurQuarterOffset": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "offset": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "quarter offset": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cur qtr offset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.677
+			          }
+			        },
+			        {
+			          "qtr offset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.667
+			          }
+			        },
+			        {
+			          "cur quarter equalizer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "cur quarter compensation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "quarter equalizer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "quarter compensation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "cur quarter counterbalance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "cur quarter balance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "cur quarter counterpoise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "cur quarter equipoise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "calender.cur_year_offset": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "CurYearOffset"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cur year offset": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CurYearOffset": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "offset": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "year offset": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cur yr offset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "yr offset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "cur year equalizer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "cur year compensation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "year equalizer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "year compensation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "cur year counterbalance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "cur year balance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "cur year counterpoise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "cur year equipoise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "calender.future_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "FutureDate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "future date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "FutureDate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "future moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "future period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "calender.cur_fiscal_year_offset": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "CurFiscalYearOffset"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cur fiscal year offset": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CurFiscalYearOffset": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "offset": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "year offset": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "fiscal year offset": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cur fisc year offset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.629
+			          }
+			        },
+			        {
+			          "cur fiscal yr offset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "fisc year offset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "cur accounting year offset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.61
+			          }
+			        },
+			        {
+			          "cur budget year offset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.61
+			          }
+			        },
+			        {
+			          "cur fiscal date offset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.61
+			          }
+			        },
+			        {
+			          "cur fiscal day offset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.61
+			          }
+			        },
+			        {
+			          "cur tax year offset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.61
+			          }
+			        },
+			        {
+			          "fiscal yr offset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "yr offset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "calender.month_year_num": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "MonthYearNum"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month year num": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MonthYearNum": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "month year number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "mth year num": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "month yr num": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        }
+			      ]
+			    },
+			    "calender.month_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "MonthYear"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MonthYear": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "month yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "Time": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "calender.month_year_long": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "MonthYearLong"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month year long": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MonthYearLong": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "year long": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "mth year long": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "month yr long": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "yr long": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "calender.weekday_num": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "WeekdayNum"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "weekday num": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "WeekdayNum": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "weekday number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "calender.weekday": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "Weekday"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "weekday": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ordinary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "standard": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "basic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "routine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "calender.weekday_weekend": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "WeekdayWeekend"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "weekday weekend": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "WeekdayWeekend": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "weekend": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "calender.week_sequence_num": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "WeekSequenceNum"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "week sequence num": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "WeekSequenceNum": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "week sequence number": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "calender.week_start_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "WeekStartDate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "week start date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "WeekStartDate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "start date": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "week start moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "start moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "week start period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "start period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "week commencement date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "week inception date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "week kickoff date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.615
+			          }
+			        },
+			        {
+			          "commencement date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "inception date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "kickoff date": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "calender.cur_week_offset": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Calender",
+			          "ConceptualProperty": "CurWeekOffset"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cur week offset": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CurWeekOffset": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "offset": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "week offset": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cur week equalizer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "cur week compensation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "week equalizer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "week compensation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "cur week counterbalance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "cur week balance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "cur week counterpoise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "cur week equipoise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "cur week counterweight": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "equalizer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "repayment": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Repayments"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "repayment": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "payment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "reimbursement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "settlement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "compensation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "refund": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "recompense": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "repayment.date_time": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Repayments",
+			          "ConceptualProperty": "date_time"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date time": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date_time": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date duration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "date timetable": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "moment time": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "period time": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "repayment.repayment_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Repayments",
+			          "ConceptualProperty": "Repayment_date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "repayment date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Repayment_date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "repayment moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "repayment period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "repayment.customer_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Repayments",
+			          "ConceptualProperty": "customer_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "customer id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "customer_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "customer identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "customer credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "client id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "consumer id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "user id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "buyer id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "patron id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "purchaser id": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        }
+			      ]
+			    },
+			    "repayment.amount": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Repayments",
+			          "ConceptualProperty": "amount"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "amount": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "volume": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "expanse": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "repayment.rep_month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Repayments",
+			          "ConceptualProperty": "rep_month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rep month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rep_month": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "rep mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "repayment.repayment_type": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Repayments",
+			          "ConceptualProperty": "repayment_type"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "repayment type": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "repayment_type": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "type": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "repayment category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "repayment genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "repayment manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "repayment variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "manner": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "repayment brand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "repayment class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "repayment_has_customer": {
+			      "Binding": {
+			        "ConceptualEntity": "Repayments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "repayment": {
+			          "Target": {
+			            "Entity": "repayment"
+			          }
+			        },
+			        "customer": {
+			          "Target": {
+			            "Entity": "customer"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "repayment"
+			            },
+			            "Object": {
+			              "Role": "customer"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "repayments_have_customers"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "customer"
+			            },
+			            "Object": {
+			              "Role": "repayment"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "customers_have_repayments"
+			        }
+			      ]
+			    },
+			    "disbursement_has_calender": {
+			      "Binding": {
+			        "ConceptualEntity": "Disbursements"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "disbursement": {
+			          "Target": {
+			            "Entity": "disbursement"
+			          }
+			        },
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "disbursement"
+			            },
+			            "Object": {
+			              "Role": "calender"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "disbursements_have_calenders"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "disbursement"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_disbursements"
+			        }
+			      ]
+			    },
+			    "disbursement_has_customer": {
+			      "Binding": {
+			        "ConceptualEntity": "Disbursements"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "disbursement": {
+			          "Target": {
+			            "Entity": "disbursement"
+			          }
+			        },
+			        "customer": {
+			          "Target": {
+			            "Entity": "customer"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "disbursement"
+			            },
+			            "Object": {
+			              "Role": "customer"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "disbursements_have_customers"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "customer"
+			            },
+			            "Object": {
+			              "Role": "disbursement"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "customers_have_disbursements"
+			        }
+			      ]
+			    },
+			    "repayment_has_repayment_type": {
+			      "Binding": {
+			        "ConceptualEntity": "Repayments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "repayment": {
+			          "Target": {
+			            "Entity": "repayment"
+			          }
+			        },
+			        "repayment.repayment_type": {
+			          "Target": {
+			            "Entity": "repayment.repayment_type"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "repayment"
+			            },
+			            "Object": {
+			              "Role": "repayment.repayment_type"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "repayments_have_repayment_types"
+			        }
+			      ]
+			    },
+			    "repayment_has_rep_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Repayments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "repayment": {
+			          "Target": {
+			            "Entity": "repayment"
+			          }
+			        },
+			        "repayment.rep_month": {
+			          "Target": {
+			            "Entity": "repayment.rep_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "repayment"
+			            },
+			            "Object": {
+			              "Role": "repayment.rep_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "repayments_have_rep_months"
+			        }
+			      ]
+			    },
+			    "repayment_has_amount": {
+			      "Binding": {
+			        "ConceptualEntity": "Repayments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "repayment": {
+			          "Target": {
+			            "Entity": "repayment"
+			          }
+			        },
+			        "repayment.amount": {
+			          "Target": {
+			            "Entity": "repayment.amount"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "repayment"
+			            },
+			            "Object": {
+			              "Role": "repayment.amount"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "repayments_have_amounts"
+			        }
+			      ]
+			    },
+			    "repayment_has_repayment_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Repayments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "repayment": {
+			          "Target": {
+			            "Entity": "repayment"
+			          }
+			        },
+			        "repayment.repayment_date": {
+			          "Target": {
+			            "Entity": "repayment.repayment_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "repayment"
+			            },
+			            "Object": {
+			              "Role": "repayment.repayment_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "repayments_have_repayment_dates"
+			        }
+			      ]
+			    },
+			    "repayment_has_date_time": {
+			      "Binding": {
+			        "ConceptualEntity": "Repayments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "repayment": {
+			          "Target": {
+			            "Entity": "repayment"
+			          }
+			        },
+			        "repayment.date_time": {
+			          "Target": {
+			            "Entity": "repayment.date_time"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "repayment"
+			            },
+			            "Object": {
+			              "Role": "repayment.date_time"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "repayments_have_date_times"
+			        }
+			      ]
+			    },
+			    "calender_has_cur_week_offset": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.cur_week_offset": {
+			          "Target": {
+			            "Entity": "calender.cur_week_offset"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.cur_week_offset"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_cur_week_offsets"
+			        }
+			      ]
+			    },
+			    "calender_has_week_start_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.week_start_date": {
+			          "Target": {
+			            "Entity": "calender.week_start_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.week_start_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_week_start_dates"
+			        }
+			      ]
+			    },
+			    "calender_has_week_sequence_num": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.week_sequence_num": {
+			          "Target": {
+			            "Entity": "calender.week_sequence_num"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.week_sequence_num"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_week_sequence_nums"
+			        }
+			      ]
+			    },
+			    "calender_has_weekday_weekend": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.weekday_weekend": {
+			          "Target": {
+			            "Entity": "calender.weekday_weekend"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.weekday_weekend"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_weekday_weekends"
+			        }
+			      ]
+			    },
+			    "calender_has_weekday": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.weekday": {
+			          "Target": {
+			            "Entity": "calender.weekday"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.weekday"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_weekdays"
+			        }
+			      ]
+			    },
+			    "calender_has_weekday_num": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.weekday_num": {
+			          "Target": {
+			            "Entity": "calender.weekday_num"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.weekday_num"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_weekday_nums"
+			        }
+			      ]
+			    },
+			    "calender_has_month_year_long": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.month_year_long": {
+			          "Target": {
+			            "Entity": "calender.month_year_long"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.month_year_long"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_month_year_longs"
+			        }
+			      ]
+			    },
+			    "calender_has_month_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.month_year": {
+			          "Target": {
+			            "Entity": "calender.month_year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.month_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_month_years"
+			        }
+			      ]
+			    },
+			    "calender_has_month_year_num": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.month_year_num": {
+			          "Target": {
+			            "Entity": "calender.month_year_num"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.month_year_num"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_month_year_nums"
+			        }
+			      ]
+			    },
+			    "calender_has_cur_fiscal_year_offset": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.cur_fiscal_year_offset": {
+			          "Target": {
+			            "Entity": "calender.cur_fiscal_year_offset"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.cur_fiscal_year_offset"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_cur_fiscal_year_offsets"
+			        }
+			      ]
+			    },
+			    "calender_has_future_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.future_date": {
+			          "Target": {
+			            "Entity": "calender.future_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.future_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_future_dates"
+			        }
+			      ]
+			    },
+			    "calender_has_cur_year_offset": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.cur_year_offset": {
+			          "Target": {
+			            "Entity": "calender.cur_year_offset"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.cur_year_offset"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_cur_year_offsets"
+			        }
+			      ]
+			    },
+			    "calender_has_cur_quarter_offset": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.cur_quarter_offset": {
+			          "Target": {
+			            "Entity": "calender.cur_quarter_offset"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.cur_quarter_offset"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_cur_quarter_offsets"
+			        }
+			      ]
+			    },
+			    "calender_has_cur_month_offset": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.cur_month_offset": {
+			          "Target": {
+			            "Entity": "calender.cur_month_offset"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.cur_month_offset"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_cur_month_offsets"
+			        }
+			      ]
+			    },
+			    "calender_has_fiscal_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.fiscal_year": {
+			          "Target": {
+			            "Entity": "calender.fiscal_year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.fiscal_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_fiscal_years"
+			        }
+			      ]
+			    },
+			    "calender_has_fiscal_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.fiscal_quarter": {
+			          "Target": {
+			            "Entity": "calender.fiscal_quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.fiscal_quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_fiscal_quarters"
+			        }
+			      ]
+			    },
+			    "calender_has_fiscal_month_long": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.fiscal_month_long": {
+			          "Target": {
+			            "Entity": "calender.fiscal_month_long"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.fiscal_month_long"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_fiscal_month_longs"
+			        }
+			      ]
+			    },
+			    "calender_has_fiscal_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.fiscal_month": {
+			          "Target": {
+			            "Entity": "calender.fiscal_month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.fiscal_month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_fiscal_months"
+			        }
+			      ]
+			    },
+			    "calender_has_fiscal_month_num": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.fiscal_month_num": {
+			          "Target": {
+			            "Entity": "calender.fiscal_month_num"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.fiscal_month_num"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_fiscal_month_nums"
+			        }
+			      ]
+			    },
+			    "calender_has_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.year": {
+			          "Target": {
+			            "Entity": "calender.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_years"
+			        }
+			      ]
+			    },
+			    "calender_has_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.quarter": {
+			          "Target": {
+			            "Entity": "calender.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_quarters"
+			        }
+			      ]
+			    },
+			    "calender_has_month_long": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.month_long": {
+			          "Target": {
+			            "Entity": "calender.month_long"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.month_long"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_month_longs"
+			        }
+			      ]
+			    },
+			    "calender_has_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.month": {
+			          "Target": {
+			            "Entity": "calender.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_months"
+			        }
+			      ]
+			    },
+			    "calender_has_month_num": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.month_num": {
+			          "Target": {
+			            "Entity": "calender.month_num"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.month_num"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_month_nums"
+			        }
+			      ]
+			    },
+			    "calender_has_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.date": {
+			          "Target": {
+			            "Entity": "calender.date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "calender.date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_dates"
+			        }
+			      ]
+			    },
+			    "repayment_has_measure_table_repayment_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "Repayments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "repayment": {
+			          "Target": {
+			            "Entity": "repayment"
+			          }
+			        },
+			        "measure_table.repayment_rate": {
+			          "Target": {
+			            "Entity": "measure_table.repayment_rate"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "repayment"
+			            },
+			            "Object": {
+			              "Role": "measure_table.repayment_rate"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "repayments_have_repayment_rate"
+			        }
+			      ]
+			    },
+			    "disbursement_has_measure_table_repayment_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "Disbursements"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "disbursement": {
+			          "Target": {
+			            "Entity": "disbursement"
+			          }
+			        },
+			        "measure_table.repayment_rate": {
+			          "Target": {
+			            "Entity": "measure_table.repayment_rate"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "disbursement"
+			            },
+			            "Object": {
+			              "Role": "measure_table.repayment_rate"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "disbursements_have_repayment_rate"
+			        }
+			      ]
+			    },
+			    "disbursement_has_measure_table_avg__loan_size": {
+			      "Binding": {
+			        "ConceptualEntity": "Disbursements"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "disbursement": {
+			          "Target": {
+			            "Entity": "disbursement"
+			          }
+			        },
+			        "measure_table.avg__loan_size": {
+			          "Target": {
+			            "Entity": "measure_table.avg__loan_size"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "disbursement"
+			            },
+			            "Object": {
+			              "Role": "measure_table.avg__loan_size"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "disbursements_have_avg__loan_size"
+			        }
+			      ]
+			    },
+			    "disbursement_has_measure_table_active_loans": {
+			      "Binding": {
+			        "ConceptualEntity": "Disbursements"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "disbursement": {
+			          "Target": {
+			            "Entity": "disbursement"
+			          }
+			        },
+			        "measure_table.active_loans": {
+			          "Target": {
+			            "Entity": "measure_table.active_loans"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "disbursement"
+			            },
+			            "Object": {
+			              "Role": "measure_table.active_loans"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "disbursements_have_active_loans"
+			        }
+			      ]
+			    },
+			    "repayment_has_measure_table_loans_profit": {
+			      "Binding": {
+			        "ConceptualEntity": "Repayments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "repayment": {
+			          "Target": {
+			            "Entity": "repayment"
+			          }
+			        },
+			        "measure_table.loans_profit": {
+			          "Target": {
+			            "Entity": "measure_table.loans_profit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "repayment"
+			            },
+			            "Object": {
+			              "Role": "measure_table.loans_profit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "repayments_have_loans_profit"
+			        }
+			      ]
+			    },
+			    "disbursement_has_measure_table_loans_profit": {
+			      "Binding": {
+			        "ConceptualEntity": "Disbursements"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "disbursement": {
+			          "Target": {
+			            "Entity": "disbursement"
+			          }
+			        },
+			        "measure_table.loans_profit": {
+			          "Target": {
+			            "Entity": "measure_table.loans_profit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "disbursement"
+			            },
+			            "Object": {
+			              "Role": "measure_table.loans_profit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "disbursements_have_loans_profit"
+			        }
+			      ]
+			    },
+			    "repayment_has_measure_table_total_payment_collected": {
+			      "Binding": {
+			        "ConceptualEntity": "Repayments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "repayment": {
+			          "Target": {
+			            "Entity": "repayment"
+			          }
+			        },
+			        "measure_table.total_payment_collected": {
+			          "Target": {
+			            "Entity": "measure_table.total_payment_collected"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "repayment"
+			            },
+			            "Object": {
+			              "Role": "measure_table.total_payment_collected"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "repayments_have_total_payment_collected"
+			        }
+			      ]
+			    },
+			    "disbursement_has_measure_table_total_disbursment": {
+			      "Binding": {
+			        "ConceptualEntity": "Disbursements"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "disbursement": {
+			          "Target": {
+			            "Entity": "disbursement"
+			          }
+			        },
+			        "measure_table.total_disbursment": {
+			          "Target": {
+			            "Entity": "measure_table.total_disbursment"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "disbursement"
+			            },
+			            "Object": {
+			              "Role": "measure_table.total_disbursment"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "disbursements_have_total_disbursment"
+			        }
+			      ]
+			    },
+			    "customer_has_measure_table_customer_count": {
+			      "Binding": {
+			        "ConceptualEntity": "Customer"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "customer": {
+			          "Target": {
+			            "Entity": "customer"
+			          }
+			        },
+			        "measure_table.customer_count": {
+			          "Target": {
+			            "Entity": "measure_table.customer_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "customer"
+			            },
+			            "Object": {
+			              "Role": "measure_table.customer_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "customers_have_customer_count"
+			        }
+			      ]
+			    },
+			    "measure_table_has_column": {
+			      "Binding": {
+			        "ConceptualEntity": "MeasureTable"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "measure_table": {
+			          "Target": {
+			            "Entity": "measure_table"
+			          }
+			        },
+			        "measure_table.column": {
+			          "Target": {
+			            "Entity": "measure_table.column"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "measure_table"
+			            },
+			            "Object": {
+			              "Role": "measure_table.column"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "measure_tables_have_columns"
+			        }
+			      ]
+			    },
+			    "customer_has_account_num": {
+			      "Binding": {
+			        "ConceptualEntity": "Customer"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "customer": {
+			          "Target": {
+			            "Entity": "customer"
+			          }
+			        },
+			        "customer.account_num": {
+			          "Target": {
+			            "Entity": "customer.account_num"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "customer"
+			            },
+			            "Object": {
+			              "Role": "customer.account_num"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "customers_have_account_nums"
+			        }
+			      ]
+			    },
+			    "customer_has_customer_id": {
+			      "Binding": {
+			        "ConceptualEntity": "Customer"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "customer": {
+			          "Target": {
+			            "Entity": "customer"
+			          }
+			        },
+			        "customer.customer_id": {
+			          "Target": {
+			            "Entity": "customer.customer_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "customer"
+			            },
+			            "Object": {
+			              "Role": "customer.customer_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "customers_have_customer_ids"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "customer"
+			            },
+			            "Name": {
+			              "Role": "customer.customer_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "customer_ids_are_names_IDs_of_customers"
+			        }
+			      ]
+			    },
+			    "disbursement_has_loan_fee": {
+			      "Binding": {
+			        "ConceptualEntity": "Disbursements"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "disbursement": {
+			          "Target": {
+			            "Entity": "disbursement"
+			          }
+			        },
+			        "disbursement.loan_fee": {
+			          "Target": {
+			            "Entity": "disbursement.loan_fee"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "disbursement"
+			            },
+			            "Object": {
+			              "Role": "disbursement.loan_fee"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "disbursements_have_loan_fees"
+			        }
+			      ]
+			    },
+			    "disbursement_has_loan_amount": {
+			      "Binding": {
+			        "ConceptualEntity": "Disbursements"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "disbursement": {
+			          "Target": {
+			            "Entity": "disbursement"
+			          }
+			        },
+			        "disbursement.loan_amount": {
+			          "Target": {
+			            "Entity": "disbursement.loan_amount"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "disbursement"
+			            },
+			            "Object": {
+			              "Role": "disbursement.loan_amount"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "disbursements_have_loan_amounts"
+			        }
+			      ]
+			    },
+			    "disbursement_has_account_num": {
+			      "Binding": {
+			        "ConceptualEntity": "Disbursements"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "disbursement": {
+			          "Target": {
+			            "Entity": "disbursement"
+			          }
+			        },
+			        "disbursement.account_num": {
+			          "Target": {
+			            "Entity": "disbursement.account_num"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "disbursement"
+			            },
+			            "Object": {
+			              "Role": "disbursement.account_num"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "disbursements_have_account_nums"
+			        }
+			      ]
+			    },
+			    "disbursement_has_tenure": {
+			      "Binding": {
+			        "ConceptualEntity": "Disbursements"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "disbursement": {
+			          "Target": {
+			            "Entity": "disbursement"
+			          }
+			        },
+			        "disbursement.tenure": {
+			          "Target": {
+			            "Entity": "disbursement.tenure"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "disbursement"
+			            },
+			            "Object": {
+			              "Role": "disbursement.tenure"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "disbursements_have_tenures"
+			        }
+			      ]
+			    },
+			    "disbursement_has_disb_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Disbursements"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "disbursement": {
+			          "Target": {
+			            "Entity": "disbursement"
+			          }
+			        },
+			        "disbursement.disb_date": {
+			          "Target": {
+			            "Entity": "disbursement.disb_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "disbursement"
+			            },
+			            "Object": {
+			              "Role": "disbursement.disb_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "disbursements_have_disb_dates"
+			        }
+			      ]
+			    },
+			    "calender_is_started_on_week_start_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Calender"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        },
+			        "calender.week_start_date": {
+			          "Target": {
+			            "Entity": "calender.week_start_date"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "calender.week_start_date"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "start": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "calender"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "calenders_are_started_on_week_start_dates"
+			        }
+			      ]
+			    },
+			    "repayment_has_calender": {
+			      "Binding": {
+			        "ConceptualEntity": "Repayments"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "repayment": {
+			          "Target": {
+			            "Entity": "repayment"
+			          }
+			        },
+			        "calender": {
+			          "Target": {
+			            "Entity": "calender"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "repayment"
+			            },
+			            "Object": {
+			              "Role": "calender"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "repayments_have_calenders"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "calender"
+			            },
+			            "Object": {
+			              "Role": "repayment"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "calenders_have_repayments"
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

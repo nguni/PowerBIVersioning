@@ -1,0 +1,35 @@
+table Customer
+	lineageTag: 53dadb18-24fb-4cb4-b8d4-8a5d8cae8f5d
+
+	column customer_id
+		dataType: string
+		lineageTag: dea43ab7-9583-4446-9604-9a4bbbb2ae54
+		summarizeBy: none
+		sourceColumn: customer_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column account_num
+		dataType: string
+		lineageTag: 5bfe657c-81bb-445c-90ff-62561ee2a4e2
+		summarizeBy: none
+		sourceColumn: account_num
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Customer = m
+		mode: import
+		source =
+				let
+				    Source = Disbursements,
+				    #"Removed Other Columns" = Table.SelectColumns(Source,{"customer_id", "account_num"}),
+				    #"Removed Duplicates" = Table.Distinct(#"Removed Other Columns", {"customer_id"}),
+				    #"Removed Blank Rows" = Table.SelectRows(#"Removed Duplicates", each not List.IsEmpty(List.RemoveMatchingItems(Record.FieldValues(_), {"", null}))),
+				    #"Removed Errors" = Table.RemoveRowsWithErrors(#"Removed Blank Rows", {"customer_id"})
+				in
+				    #"Removed Errors"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

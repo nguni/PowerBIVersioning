@@ -1,0 +1,87 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 18.333333969116211,
+        "y": 4.6666665077209473
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "Disbursements",
+          "nodeLineageTag": "4001592e-8e7f-4815-86ab-30c5e79c68d0",
+          "size": {
+            "height": 243,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 369,
+            "y": 134
+          },
+          "nodeIndex": "Customer",
+          "nodeLineageTag": "53dadb18-24fb-4cb4-b8d4-8a5d8cae8f5d",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 1007,
+            "y": 0
+          },
+          "nodeIndex": "MeasureTable",
+          "nodeLineageTag": "b1c6d4af-1bab-4aab-bedc-8fa6b43d0369",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 99,
+            "y": 421.5
+          },
+          "nodeIndex": "Calender",
+          "nodeLineageTag": "1a6e3090-39bb-486f-a58f-084c6986427c",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 591,
+            "y": 374.75
+          },
+          "nodeIndex": "Repayments",
+          "nodeLineageTag": "19908a2c-993d-402c-b5e3-0b706e795899",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

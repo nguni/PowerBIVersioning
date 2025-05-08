@@ -1,0 +1,16 @@
+relationship 0d9b538f-1d14-fa13-dc72-a998c73bdf3f
+	fromColumn: Disbursements.customer_id
+	toColumn: Customer.customer_id
+
+relationship 749a2574-ca44-28a6-04e8-667531ceccea
+	fromColumn: Disbursements.disb_date
+	toColumn: Calender.Date
+
+relationship AutoDetected_57451606-6640-4a2c-a9c3-cd6a94b58ea6
+	fromColumn: Repayments.customer_id
+	toColumn: Customer.customer_id
+
+relationship 2db24712-6abd-7459-8531-e09c321590ba
+	fromColumn: Repayments.Repayment_date
+	toColumn: Calender.Date
+

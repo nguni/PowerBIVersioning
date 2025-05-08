@@ -1,0 +1,72 @@
+table Disbursements
+	lineageTag: 4001592e-8e7f-4815-86ab-30c5e79c68d0
+
+	column customer_id
+		dataType: string
+		lineageTag: 8d961905-2c7d-4996-b067-85053c3df2d8
+		summarizeBy: none
+		sourceColumn: customer_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column disb_date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: e3a114e8-3986-4eea-9db5-cda1caac1fe8
+		summarizeBy: none
+		sourceColumn: disb_date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column tenure
+		dataType: string
+		lineageTag: 294f1901-1a39-4f27-a193-c8f26b3e30d3
+		summarizeBy: none
+		sourceColumn: tenure
+
+		annotation SummarizationSetBy = Automatic
+
+	column account_num
+		dataType: string
+		lineageTag: c690eca9-c674-4129-a2c2-932059b40448
+		summarizeBy: none
+		sourceColumn: account_num
+
+		annotation SummarizationSetBy = Automatic
+
+	column loan_amount
+		dataType: int64
+		formatString: 0
+		lineageTag: fb1ca7b0-7443-420c-97b3-b6980e181962
+		summarizeBy: sum
+		sourceColumn: loan_amount
+
+		annotation SummarizationSetBy = Automatic
+
+	column loan_fee
+		dataType: double
+		lineageTag: 98d51b9a-2d18-47af-90c1-9982c9ca8ba9
+		summarizeBy: sum
+		sourceColumn: loan_fee
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition Disbursements = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\JohnMuthoka\Downloads\BI_Analyst_Case_Study_Data.xlsx"), null, true),
+				    Disbursements_Sheet = Source{[Item="Disbursements",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(Disbursements_Sheet, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"customer_id", type text}, {"disb_date", type date}, {"tenure", type text}, {"account_num", type text}, {"loan_amount", Int64.Type}, {"loan_fee", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

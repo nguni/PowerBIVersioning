@@ -1,0 +1,326 @@
+table Calender
+	lineageTag: 1a6e3090-39bb-486f-a58f-084c6986427c
+	dataCategory: Time
+
+	column Date
+		dataType: dateTime
+		isKey
+		formatString: Long Date
+		lineageTag: 086d4a49-a86f-4c3a-8815-45305aa319d3
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column MonthNum
+		dataType: int64
+		formatString: 0
+		lineageTag: 3cde1311-561d-4db3-b015-7e68f5923c8b
+		summarizeBy: sum
+		sourceColumn: MonthNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column Month
+		dataType: string
+		lineageTag: 9d2aae3e-b75e-4361-a043-589f505906b3
+		summarizeBy: none
+		sourceColumn: Month
+		sortByColumn: MonthNum
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column MonthLong
+		dataType: string
+		lineageTag: f8e6b8c2-9cea-4e91-89c2-292d6d36f4a0
+		summarizeBy: none
+		sourceColumn: MonthLong
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quarter
+		dataType: string
+		lineageTag: 30e04b1d-301f-45c3-9370-b882383f3729
+		summarizeBy: none
+		sourceColumn: Quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column Year
+		dataType: int64
+		formatString: 0
+		lineageTag: 174b5f80-f5f1-417e-b263-edd7a46b8d0f
+		summarizeBy: sum
+		sourceColumn: Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column FiscalMonthNum
+		dataType: double
+		lineageTag: 9a83fd0a-2ab0-4875-ad9e-a963d0483729
+		summarizeBy: sum
+		sourceColumn: FiscalMonthNum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column FiscalMonth
+		dataType: string
+		lineageTag: 7787bf6b-12fe-4ad6-811a-eadcc3975c38
+		summarizeBy: none
+		sourceColumn: FiscalMonth
+
+		annotation SummarizationSetBy = Automatic
+
+	column FiscalMonthLong
+		dataType: string
+		lineageTag: 541a22e3-a71c-4c56-9464-b8f06ae56e0e
+		summarizeBy: none
+		sourceColumn: FiscalMonthLong
+
+		annotation SummarizationSetBy = Automatic
+
+	column FiscalQuarter
+		dataType: string
+		lineageTag: 3b40269f-ace1-4451-ac28-f19c052164cc
+		summarizeBy: none
+		sourceColumn: FiscalQuarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column FiscalYear
+		dataType: string
+		lineageTag: 2d9f8c2e-15c0-4f50-aa76-651f9a2fc24d
+		summarizeBy: none
+		sourceColumn: FiscalYear
+
+		annotation SummarizationSetBy = Automatic
+
+	column CurMonthOffset
+		dataType: int64
+		formatString: 0
+		lineageTag: 64670825-db47-427b-b071-3843c4ad8e31
+		summarizeBy: sum
+		sourceColumn: CurMonthOffset
+
+		annotation SummarizationSetBy = Automatic
+
+	column CurQuarterOffset
+		dataType: int64
+		formatString: 0
+		lineageTag: d8621bdf-4748-4a55-8963-30b87d0b2d1f
+		summarizeBy: sum
+		sourceColumn: CurQuarterOffset
+
+		annotation SummarizationSetBy = Automatic
+
+	column CurYearOffset
+		dataType: int64
+		formatString: 0
+		lineageTag: 56dc34eb-1158-43b4-82bc-e48caefa5a4e
+		summarizeBy: sum
+		sourceColumn: CurYearOffset
+
+		annotation SummarizationSetBy = Automatic
+
+	column FutureDate
+		dataType: string
+		lineageTag: bf91bb1c-cb30-4aff-848c-c7f6f05a2e27
+		summarizeBy: none
+		sourceColumn: FutureDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column CurFiscalYearOffset
+		dataType: string
+		lineageTag: 27f3ec0d-6c08-4177-a38d-0e69a08a42b1
+		summarizeBy: none
+		sourceColumn: CurFiscalYearOffset
+
+		annotation SummarizationSetBy = Automatic
+
+	column MonthYearNum
+		dataType: int64
+		formatString: 0
+		lineageTag: 5d4a991f-80b5-4235-af56-63cde45a7a0a
+		summarizeBy: sum
+		sourceColumn: MonthYearNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column MonthYear
+		dataType: string
+		lineageTag: 7b2a612d-2817-4770-a53e-3a07fe8f4bfc
+		summarizeBy: none
+		sourceColumn: MonthYear
+		sortByColumn: MonthNum
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column MonthYearLong
+		dataType: string
+		lineageTag: 85246a0b-0903-4a56-872d-67fc1e2a780f
+		summarizeBy: none
+		sourceColumn: MonthYearLong
+
+		annotation SummarizationSetBy = Automatic
+
+	column WeekdayNum
+		dataType: int64
+		formatString: 0
+		lineageTag: b6c85a11-c296-44bf-8d01-42395e7dd873
+		summarizeBy: sum
+		sourceColumn: WeekdayNum
+
+		annotation SummarizationSetBy = Automatic
+
+	column Weekday
+		dataType: string
+		lineageTag: 5cb221b0-0267-46c1-a0d4-675ca68c3972
+		summarizeBy: none
+		sourceColumn: Weekday
+
+		annotation SummarizationSetBy = Automatic
+
+	column WeekdayWeekend
+		dataType: string
+		lineageTag: a448892f-f3d2-482e-98b8-e480fa83bcd3
+		summarizeBy: none
+		sourceColumn: WeekdayWeekend
+
+		annotation SummarizationSetBy = Automatic
+
+	column WeekSequenceNum
+		dataType: double
+		lineageTag: 9b9c5082-1d77-40d7-a271-990f82193abe
+		summarizeBy: sum
+		sourceColumn: WeekSequenceNum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column WeekStartDate
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 18aa32b6-7e1f-4b20-998a-79100432a270
+		summarizeBy: none
+		sourceColumn: WeekStartDate
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column CurWeekOffset
+		dataType: int64
+		formatString: 0
+		lineageTag: 18cd6679-0bfb-4979-9c6e-8e00995c5c7a
+		summarizeBy: sum
+		sourceColumn: CurWeekOffset
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Calender = m
+		mode: import
+		source = ```
+				let
+				    StartDate = #date(2023, 12, 31),
+				    EndDate = Date.EndOfYear(DateTime.Date(DateTime.FixedLocalNow())) /*was "#date(2017, 1, 1)" Updated on 201802027: hard Coded End of Year caused some formulas to break, switching to dynamic date*/,
+				    //Used for 'Offset' Column calculations, you may Hard code CurrentDate for testing e.g. #date(2017,9,1)
+				    CurrentDate = DateTime.Date(DateTime.FixedLocalNow()),
+				    // Specify the last month in your Fiscal Year, e.g. if June is the last month of your Fiscal Year, specify 6
+				    FiscalYearEndMonth = 6,
+				    #"==SET PARAMETERS ABOVE==" = 1,
+				    #"==Build Date Column==" = #"==SET PARAMETERS ABOVE==",
+				    ListDates = List.Dates(StartDate, Number.From(EndDate - StartDate)+1, #duration(1,0,0,0)),
+				    #"Converted to Table" = Table.FromList(ListDates, Splitter.SplitByNothing(), null, null, ExtraValues.Error),
+				    #"Renamed Columns as Date" = Table.RenameColumns(#"Converted to Table",{{"Column1", "Date"}}),
+				    // As far as Power BI is concerned, the 'Date' column is all that is needed :-) But we will continue and add a few Human-Friendly Columns
+				    #"Changed Type to Date" = Table.TransformColumnTypes(#"Renamed Columns as Date",{{"Date", type date}}),
+				    #"==Add Calendar Columns==" = #"Changed Type to Date",
+				    #"Added Calendar MonthNum" = Table.AddColumn(#"==Add Calendar Columns==", "MonthNum", each Date.Month([Date]), Int64.Type),
+				    #"Added Month Name" = Table.AddColumn(#"Added Calendar MonthNum", "Month", each Text.Start(Date.MonthName([Date]),3), type text),
+				    #"Added Month Name Long" = Table.AddColumn(#"Added Month Name", "MonthLong", each Date.MonthName([Date]), type text),
+				    #"Added Calendar Quarter" = Table.AddColumn(#"Added Month Name Long", "Quarter", each "Q" & Text.From(Date.QuarterOfYear([Date]))),
+				    #"Added Calendar Year" = Table.AddColumn(#"Added Calendar Quarter", "Year", each Date.Year([Date]), Int64.Type),
+				    #"==Add Fiscal Calendar Columns==" = #"Added Calendar Year",
+				    #"Added FiscalMonthNum" = Table.AddColumn(#"==Add Fiscal Calendar Columns==", "FiscalMonthNum", each if [MonthNum] > FiscalYearEndMonth
+				then [MonthNum] - FiscalYearEndMonth
+				else [MonthNum] + (12 - FiscalYearEndMonth), type number),
+				    #"Added FiscalMonth Name" = Table.AddColumn(#"Added FiscalMonthNum", "FiscalMonth", each [Month]),
+				    #"Added FiscalMonth Name Long" = Table.AddColumn(#"Added FiscalMonth Name", "FiscalMonthLong", each [MonthLong]),
+				    #"Added FiscalQuarter" = Table.AddColumn(#"Added FiscalMonth Name Long", "FiscalQuarter", each "FQ" & Text.From(Number.RoundUp([FiscalMonthNum] / 3,0))),
+				    #"Added FiscalYear" = Table.AddColumn(#"Added FiscalQuarter", "FiscalYear", each "FY" & 
+				Text.End(
+				  Text.From(
+				    if [MonthNum] > FiscalYearEndMonth
+				    then [Year] + 1
+				    else [Year]
+				  )
+				  , 2
+				)),
+				
+				    #"==Add Calendar Date Offset Columns==" = #"Added FiscalYear",
+				    // Can be used to for example to show the past 3 months(CurMonthOffset = 0, -1, -2)
+				    #"Added CurMonthOffset" = Table.AddColumn(#"==Add Calendar Date Offset Columns==", "CurMonthOffset", each ( Date.Year([Date]) - Date.Year(CurrentDate) ) * 12
+				+ Date.Month([Date]) - Date.Month(CurrentDate), Int64.Type),
+				    // Can be used to for example to show the past 3 quarters (CurQuarterOffset = 0, -1, -2)
+				    #"Added CurQuarterOffset" = Table.AddColumn(#"Added CurMonthOffset", "CurQuarterOffset", each /*Year Difference*/
+				       ( Date.Year([Date]) - Date.Year(CurrentDate) )*4
+				       /*Quarter Difference*/
+				      + Number.RoundUp(Date.Month([Date]) / 3) 
+				      - Number.RoundUp(Date.Month(CurrentDate) / 3),
+				Int64.Type),
+				    // Can be used to for example to show the past 3 years (CurYearOffset = 0, -1, -2)
+				    #"Added CurYearOffset" = Table.AddColumn(#"Added CurQuarterOffset", "CurYearOffset", each Date.Year([Date]) - Date.Year(CurrentDate), Int64.Type),
+				    // Can be used to for example filter out all future dates
+				    #"Added FutureDate Flag" = Table.AddColumn(#"Added CurYearOffset", "FutureDate", each if [Date] > CurrentDate then "Future" else "Past" ),
+				    // FiscalYearOffset is the only Offset that is different.
+				    // FiscalQuarterOffset = is same as CurQuarterOffset
+				    // FiscalMonthOffset = is same as CurMonthOffset
+				    #"==Add FiscalYearOffset==" = #"Added FutureDate Flag",
+				    #"Filtered Rows to CurrentDate" = Table.SelectRows(#"==Add FiscalYearOffset==", each ([Date] = CurrentDate)),
+				    CurrentFiscalYear = #"Filtered Rows to CurrentDate"{0}[FiscalYear],
+				    #"Continue...Orig Table" = #"==Add FiscalYearOffset==",
+				    #"Added CurFiscalYearOffset" = Table.AddColumn(#"Continue...Orig Table", "CurFiscalYearOffset", each Number.From(Text.Range([FiscalYear],2,2)) - 
+				Number.From(Text.Range(CurrentFiscalYear,2,2))
+				/*Extract the numerical portion, e.g. FY18 = 18*/),
+				    #"==Add General Columns==" = #"Added CurFiscalYearOffset",
+				    // Used as 'Sort by Column' for MonthYear columns
+				    #"Added MonthYearNum" = Table.AddColumn(#"==Add General Columns==", "MonthYearNum", each [Year]*100 + [MonthNum] /*e.g. Sep-2016 would become 201609*/, Int64.Type),
+				    #"Added MonthYear" = Table.AddColumn(#"Added MonthYearNum", "MonthYear", each [Month] & "-" & Text.End(Text.From([Year]),2)),
+				    #"Added MonthYearLong" = Table.AddColumn(#"Added MonthYear", "MonthYearLong", each [Month] & "-" & Text.From([Year])),
+				    #"Added WeekdayNum" = Table.AddColumn(#"Added MonthYearLong", "WeekdayNum", each Date.DayOfWeek([Date]), Int64.Type),
+				    #"Added Weekday Name" = Table.AddColumn(#"Added WeekdayNum", "Weekday", each Text.Start(Date.DayOfWeekName([Date]),3), type text),
+				    #"Added WeekdayWeekend" = Table.AddColumn(#"Added Weekday Name", "WeekdayWeekend", each if [WeekdayNum] = 0 or [WeekdayNum] = 6
+				then "Weekend"
+				else "Weekday"),
+				    #"==Improve Ultimate Table" = #"Added WeekdayWeekend",
+				    #"----Add WeekSequenceNum----" = #"==Improve Ultimate Table",
+				    #"Filtered Rows Sundays Only (Start of Week)" = Table.SelectRows(#"----Add WeekSequenceNum----", each ([WeekdayNum] = 0)),
+				    #"Added Index WeekSequenceNum" = Table.AddIndexColumn(#"Filtered Rows Sundays Only (Start of Week)", "WeekSequenceNum", 2, 1),
+				    #"Merged Queries Ultimate Table to WeekSequenceNum" = Table.NestedJoin(#"==Improve Ultimate Table",{"Date"},#"Added Index WeekSequenceNum",{"Date"},"Added Index WeekNum",JoinKind.LeftOuter),
+				    #"Expanded Added Index WeekNum" = Table.ExpandTableColumn(#"Merged Queries Ultimate Table to WeekSequenceNum", "Added Index WeekNum", {"WeekSequenceNum"}, {"WeekSequenceNum"}),
+				    // somehow it ends up being unsorted after Expand Column, should not matter for the end table, but makes it harder to debug and check everything is correct. Thus sorting it.
+				    #"ReSorted Rows by Date" = Table.Sort(#"Expanded Added Index WeekNum",{{"Date", Order.Ascending}}),
+				    #"Filled Down WeekSequenceNum" = Table.FillDown(#"ReSorted Rows by Date", {"WeekSequenceNum"}),
+				    #"Replaced Value WeekSequenceNum null with 1" = Table.ReplaceValue(#"Filled Down WeekSequenceNum",null,1,Replacer.ReplaceValue,{"WeekSequenceNum"}),
+				    #"Inserted Start of Week" = Table.AddColumn(#"Replaced Value WeekSequenceNum null with 1", "WeekStartDate", each Date.StartOfWeek([Date]), type date),
+				    #"----WeekSequenceNum Complete----" = #"Inserted Start of Week",
+				    Current_WeekSequenceNum = #"----WeekSequenceNum Complete----"{[Date = CurrentDate]}?[WeekSequenceNum],
+				    #"Added Custom CurWeekOffset" = Table.AddColumn(#"----WeekSequenceNum Complete----", "CurWeekOffset", each [WeekSequenceNum] - Current_WeekSequenceNum, Int64.Type)
+				in
+				    #"Added Custom CurWeekOffset"
+				```
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

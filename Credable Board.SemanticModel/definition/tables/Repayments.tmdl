@@ -1,0 +1,76 @@
+table Repayments
+	lineageTag: 19908a2c-993d-402c-b5e3-0b706e795899
+
+	column date_time
+		dataType: string
+		lineageTag: 4adb7448-0ee0-4e02-b125-d1fd8c40e61f
+		summarizeBy: none
+		sourceColumn: date_time
+
+		annotation SummarizationSetBy = Automatic
+
+	column Repayment_date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: bb6b0367-ecb6-4bd5-b3cc-b0db03d86de2
+		summarizeBy: none
+		sourceColumn: Repayment_date
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column customer_id
+		dataType: string
+		lineageTag: 4692ffbf-0d6b-4f46-822d-76deb579f536
+		summarizeBy: none
+		sourceColumn: customer_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column amount
+		dataType: double
+		lineageTag: c4241659-4882-4402-8243-0fee7b86fbac
+		summarizeBy: sum
+		sourceColumn: amount
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column rep_month
+		dataType: int64
+		formatString: 0
+		lineageTag: 36241a7e-83b6-4936-a429-08291a91e65a
+		summarizeBy: sum
+		sourceColumn: rep_month
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+	column repayment_type
+		dataType: string
+		lineageTag: a0b0bce7-d2b6-4a52-8bd8-8754f3ae0faf
+		summarizeBy: none
+		sourceColumn: repayment_type
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Repayments = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\JohnMuthoka\Downloads\BI_Analyst_Case_Study_Data.xlsx"), null, true),
+				    Repayments_Sheet = Source{[Item="Repayments",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(Repayments_Sheet, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"date_time", type text}, {"Date", type date}, {"Column1", type date}, {"Repayment_date", type date}, {"customer_id", type text}, {"amount", type number}, {"rep_month", Int64.Type}, {"repayment_type", type text}}),
+				    #"Filtered Rows" = Table.SelectRows(#"Changed Type", each true),
+				    #"Removed Columns" = Table.RemoveColumns(#"Filtered Rows",{"Date", "Column1", "Column2"})
+				in
+				    #"Removed Columns"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

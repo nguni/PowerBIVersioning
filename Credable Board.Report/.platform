@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Credable Board"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "8e2bbfd8-dc49-4ed6-93b8-6bfca1cde8eb"
+  }
+}

@@ -1,0 +1,51 @@
+table MeasureTable
+	lineageTag: b1c6d4af-1bab-4aab-bedc-8fa6b43d0369
+
+	measure 'Customer Count' = DISTINCTCOUNT(Customer[customer_id])
+		formatString: #,0
+		lineageTag: 7cc8abe6-ad3e-4864-a6fa-9368eac2b758
+
+	measure 'Total Disbursment' = SUM(Disbursements[loan_amount])
+		formatString: 0
+		lineageTag: 0b4e981a-04a9-4409-83be-780f3226af76
+
+	measure 'Total Payment Collected' = SUM(Repayments[amount])
+		lineageTag: 4feeaac0-d284-4fed-b250-3b73f4b24bf2
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Loans Profit' = [Total Payment Collected] - [Total Disbursment]
+		lineageTag: 41f2a97b-72b3-4529-a432-f496127be767
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Active Loans' = DISTINCTCOUNT(Disbursements[account_num])
+		formatString: 0
+		lineageTag: d4a4f251-a631-4302-bb4b-8d5aab6f0b3d
+
+	measure 'Avg. Loan Size' = AVERAGE(Disbursements[loan_amount])
+		lineageTag: 4a6280ed-fbb1-4baf-9081-5588cef91d60
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Repayment Rate' = DIVIDE([Total Payment Collected], [Total Disbursment])
+		formatString: 0.00%;-0.00%;0.00%
+		lineageTag: 9dd0f56a-a9a2-407f-b3f8-3bb6c7e31619
+
+	column Column
+		formatString: 0
+		lineageTag: 39c3c6f6-a063-4c6b-b51e-269dbad4b55b
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition MeasureTable = calculated
+		mode: import
+		source = Row("Column", BLANK())
+
+	annotation PBI_Id = 27ee7cc9a14641448ebaf54b05752f46
+
+	annotation 436ba87b-9c83-4389-a31b-ebd06a36be98 = {"Expression":""}
+
